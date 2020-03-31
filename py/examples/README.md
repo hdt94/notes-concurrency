@@ -1,9 +1,22 @@
-# Speed Up Your Python Program With Concurrency: Code Examples
+# Examples of concurrency in Python
 
-Corresponding code to the Real Python tutorial, "[Speed up your Python Program with Concurrency](https://realpython.com/python-concurrency/)."
+These examples are slight modifications of code presented in _Speed Up Your Python Program With Concurrency_:
 
-To run the code here, use:
+- Publication: [https://realpython.com/python-concurrency](https://realpython.com/python-concurrency)
 
-    pip install -r requirements.txt
+- Code: [https://github.com/realpython/materials/tree/master/concurrency-overview](https://github.com/realpython/materials/tree/master/concurrency-overview)
 
-This will ensure you have the required packages.
+## Up and running with examples
+
+Set up examples
+
+```bash
+$ chmod 744 setup-env.sh && ./setup-env.sh
+```
+
+Run examples
+
+```bash
+$ ./run-io-examples.sh
+$ ./run-cpu-examples.sh
+```
