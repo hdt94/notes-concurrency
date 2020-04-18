@@ -13,6 +13,7 @@ async def download_site(session, url):
     async with session.get(url) as response:
         counter += 1
         data += response.content_length
+        await response.read()
 
 
 async def download_all_sites(sites):

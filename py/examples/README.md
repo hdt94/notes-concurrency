@@ -8,15 +8,18 @@ These examples are slight modifications of code presented in _Speed Up Your Pyth
 
 ## Up and running with examples
 
-Set up examples
+Run examples with `run.sh`:
 
 ```bash
-$ chmod 744 setup-env.sh && ./setup-env.sh
+$ chmod 744 run.sh
+$ ./run.sh
 ```
 
-Run examples
+You can specify `--io` or `--cpu` flags:
 
-```bash
-$ ./run-io-examples.sh
-$ ./run-cpu-examples.sh
 ```
+$ ./run.sh --io
+$ ./run.sh --cpu
+```
+
+Note: any first running will setup virtual environment.
